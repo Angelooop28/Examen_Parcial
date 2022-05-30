@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+</head>
+<body>
+    <main>
+      <form action="" method="get" id="formulario">
+        <class = "form">
+          <h1>Registro de libro</h1>
+          <label for="tituloV">Ingrese el titulo:</label>
+          <div class="datos">  
+          <input type="text" name="" id="tituloV"            
+            placeholder="Digite el titulo" onclick="ValidarLibro(titulo)"/>      
+          </div>
+          <label for="autorV">Autor:</label>
+          <div class="datos">  
+          <input type="text" name="" id="marcaV"
+          placeholder="Digite el autor" onclick="ValidarLibro(autor)"/>    
+          </div>
+          <label for="editorialV">Editorial:</label>
+          <div class="datos"> 
+          <input type="text" name="" id="editorialV" 
+          placeholder="Ingrese la editorial" onclick="ValidarLibro(editorial)"/>         
+          </div>
+          <label for="fechaIV">fecha inicial:</label>
+          <div class="datos"> 
+          <input type="text" name="" id="fechaIV" 
+          placeholder="Ingrese la fecha" onclick="ValidarLibro(fechaInicial)"/>         
+          </div>
+          <label for="fechaFV">fecha final:</label>
+          <div class="datos"> 
+          <input type="text" name="" id="fechaFV" 
+          placeholder="Ingrese la fecha" onclick="ValidarLibro(fechaFinal)"/>         
+          </div>
+          <br>
+          <button type="submit" onclick="ValidarLibro()">Validacion de libro</button>
+        </div>
+      </form>
+      <script src="validacion.js"></script>
+    </main>
+  </body>
+  </html>
